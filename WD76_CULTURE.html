@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lilita+One&family=Open+Sans:wght@300&family=Titan+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lilita+One&family=Titan+One&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js" integrity="sha512-ur3bvcsoBMm1IdHaX7qza+XM3y/16yPN7RV7BxmdEAxkMf32hET4V2XPqGF7vaB35aYvFAT/9vOb4M5zck+eUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="WD76_CULTURE.css">
+    <title>Document</title>
+</head>
+<body class="bg-white">
+    <nav class="navbar navbar-expand-lg bg-black sticky-top">
+        <section class="header">
+            <div class="container">
+            <img src="img/ilc.png">
+        </section>
+            <div class="container-fluid">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigationExercise10">
+                    <span class="navbar-toggler-icon bg-white"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navigationExercise10">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="WD76_MINIP1.html">Tourist Spots</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="WD76_ACTIVITIES.html">Activities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="WD76_EVENTS.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="WD76_CULTURE.html">Culture</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="MP1_WD76_CONTACTUS_VENCE.html">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                </form>
+                <br><br>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="btn btn-white bg-white" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-regular fa-user"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="sampleModal1">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal size, modal-xl, modal-fullscreen, modal-lg, modal-sm -->
+            <div class="modal-content">
+                <div class="row">
+                    <div class="modal-body">
+                            <h1 class="text-center">Login</h1>
+                        <div class="ms-auto">
+                            <lable for="Username">Email</lable>
+                            <input type="text" name="Username" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Password">Password</lable>
+                            <input type="password" name="Password" class="form-control">
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <p>Forgot your password?</p>
+                        </div>
+                        <div class="text-center">
+                            <a class="btn btn-outline-info" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1">SIGN IN</a>
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <a class="" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">Create account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+    <div class="modal fade" id="sampleModal2">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal size, modal-xl, modal-fullscreen, modal-lg, modal-sm -->
+            <div class="modal-content">
+                <div class="row">
+                    <div class="modal-body">
+                        <h1 class="text-center">Create Account</h1>
+                        <label for="title">Title*</label>
+                        <br>
+                        <input type="radio" value="Mr." name="name">  Mr.
+                        <input type="radio" value="Ms." name="name">  Ms.
+                        <input type="radio" value="Mrs." name="name">  Mrs.
+                        <div class="ms-auto">
+                            <br>
+                            <lable for="Username">First name*</lable>
+                            <input type="text" name="Username" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Lastname">Last name*</lable>
+                            <input type="lastname" name="last" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <label for="birthday">Date of Birth*</label>
+                            <input type="date" name="birthday" class="form-control">
+                        </div>
+                        <br>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Address">Adrress*</lable>
+                            <input type="address" name="address" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Postalcosde">Zip/Postal code*</lable>
+                            <input type="postalcode" name="postalcode" class="form-control">
+                        </div>
+                        <br>
+                        <hr>
+                        <div class="cf-phone-field">
+                            <lable for="Address">Mobile*</lable>
+                            <input type="address" name="last" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Email">Email address*</lable>
+                            <input type="email" name="email" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Password">Password*</lable>
+                            <input type="password" name="Password" class="form-control">
+                            <p>(Five characters minimum)</p>
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Password">Confirm Password*</lable>
+                            <input type="password" name="Password" class="form-control">
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <input type="radio" value="Mr." name="name">  By creating this account, I agree to the Terms & Conditions. Please read our Privacy Policy to understand how 
+                            <br>  we use your personal data.
+                        </div>
+                        <br>
+                        <a class="btn btn-outline-info type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">CANCEL</a>
+                        <a class="btn btn-outline-info type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">CREATE ACCOUNT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="header2">
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+    </div>
+    <div id="content-container">
+        <div id="content">
+            <p class="text-black text-center bg-light">Cebuano is the lingua franca of Central Visayas, the western parts of Eastern Visayas, some western parts of Palawan and most parts of Mindanao. The name Cebuano is derived from the island of Cebu, which is the source of Standard Cebuano. Cebuano is also the primary language in Western Leyte—noticeably in Ormoc.</p>
+            <h1 class="text-white bg-danger text-center">Cultures</h1>
+            <br>
+            <div class="row">
+                <div class="element-1">
+                    <br><br><br>
+                    <img src="img/cebuano.jpg" alt="" width="100%">
+                </div>
+                <div class="element-2">
+                    <div class="element-2-content">
+                        <h1 class="text-white bg-warning text-center">Cebuano People</h1>
+                        <p class="text-black bg-light">The Cebuano people (Cebuano: Mga Sugbuanon) are the largest subgroup of the larger ethnolinguistic group Visayans, who constitute the largest Filipino ethnolinguistic group in the country. Their primary language is the Cebuano language, an Austronesian language. They originated in the province of Cebu in the region of Central Visayas, but then later spread out to other places in the Philippines, such as Siquijor, Bohol, Negros Oriental, southwestern Leyte, western Samar, Masbate, and large parts of Mindanao. It may also refer to the ethnic group who speak the same language as their native tongue in different parts of the archipelago. The term Cebuano also refers to the demonym of permanent residents in Cebu island regardless of ethnicity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="content-container">
+        <div id="content">
+            <br>
+            <div class="row">
+                <div class="element-3">
+                    <img src="img/cebuano1.jpg" alt="" width="100%">
+                </div>
+                <div class="element-4">
+                    <div class="element-4-content">
+                        <h1 class="text-white bg-warning text-center">History</h1>
+                        <p class="text-black bg-light">The earliest European record of Cebuanos was by Antonio Pigafetta of the Magellan expedition. He provided some descriptions of their customs as well as samples of the Cebuano language.[2][3] Ferdinand Magellan was killed in Cebu during the Battle of Mactan against the forces of Lapulapu.[4][5]
+
+                            Later early Spanish colonists referred to the Cebuanos (and other Visayans) as the pintados ("the painted ones"), due to their widespread practice of tattooing to record battle exploits.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br>
+            <div class="row">
+                <div class="element-1">
+                    <img src="img/cebuano2.jpg" alt="" width="100%">
+                </div>
+                <div class="element-2">
+                    <div class="element-2-content">
+                        <h1 class="text-white bg-info text-center">Culture and Festivities</h1>
+                        <p class="text-black bg-light">The majority of Cebuanos are Roman Catholic, with many in rural areas synchronizing Catholicism with indigenous Bisayan folk religion. A minority of Cebuanos (specifically those in Mindanao) are Muslim, or in mixed Chinese-Cebuano families, incorporate Catholic beliefs with aspects of Buddhism or Taoism.</p>
+                        <p class="text-black bg-light">Among the island's notable festivities are the Sinulog festival, which is a mixture of Christian and native cultural elements, celebrated annually every third week of January.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="content-container">
+        <div id="content">
+            <br>
+            <div class="row">
+                <div class="element-3">
+                    <img src="img/cebuano3.png" alt="" width="100%">
+                </div>
+                <div class="element-4">
+                    <div class="element-4-content">
+                        <h1 class="text-white bg-success text-center">Language</h1>
+                        <p class="text-black bg-light">The Cebuano language is spoken by more than twenty million people in the Philippines and is the most widely spoken of the Visayan languages. Most speakers of Cebuano are found in Cebu, Bohol, Siquijor, Biliran, Western and Southern Leyte, eastern Negros and most of northern, southeastern and western Mindanao.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+    <div id="content-container">
+        <br><br>
+        <div id="content">
+            <div class="row">
+                <div class="element-1">
+                    <img src="img/cebuano4.jpg" alt="" width="100%">
+                    <br><br>
+                    <h5 class="text-white bg-primary">“Cebuano, also called Cebuan or Sugbuhanon, the second largest ethnolinguistic group (after Tagalog) in the Philippines, numbering roughly 16.5 million in the second decade of the 21st century.”</h5>
+                </div>
+                <div class="element-1">
+                    <img src="img/cebuano5.jpg" alt="" width="100%">
+                </div>
+                <div class="element-1">
+                    <br>
+                    <img src="img/cebuano6.jpg" alt="" width="100%">
+                    <br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-black text-white p-0 text-center">
+        <img src="img/ilc.png" alt="" width="5%">
+        <p>Copyright 2023</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

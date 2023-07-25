@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js" integrity="sha512-ur3bvcsoBMm1IdHaX7qza+XM3y/16yPN7RV7BxmdEAxkMf32hET4V2XPqGF7vaB35aYvFAT/9vOb4M5zck+eUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lilita+One&family=Open+Sans:wght@300&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="WD76_MagilliansCross.css">
+    <link rel="stylesheet" href="WD76_CEBUSAFARI.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-black sticky-top">
+        <section class="header">
+            <div class="container">
+            <img src="img/love2.png">
+        </section>
+        <div class="container-fluid">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigationExercise10">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation Button -->
+
+            <!-- Navigation List -->
+            <div class="collapse navbar-collapse" id="navigationExercise10">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="WD76_MINIP1.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="">Culture</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Navigation List -->
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+            </form>
+            <br><br>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="btn btn-white bg-white" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-regular fa-user"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="sampleModal1">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal size, modal-xl, modal-fullscreen, modal-lg, modal-sm -->
+            <div class="modal-content">
+                <div class="row">
+                    <div class="modal-body">
+                            <h1 class="text-center">Login</h1>
+                        <div class="ms-auto">
+                            <lable for="Username">Email</lable>
+                            <input type="text" name="Username" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Password">Password</lable>
+                            <input type="password" name="Password" class="form-control">
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <p>Forgot your password?</p>
+                        </div>
+                        <div class="text-center">
+                            <a class="btn btn-outline-info" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1">SIGN IN</a>
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <a class="" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">Create account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+    <div class="modal fade" id="sampleModal2">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal size, modal-xl, modal-fullscreen, modal-lg, modal-sm -->
+            <div class="modal-content">
+                <div class="row">
+                    <div class="modal-body">
+                        <h1 class="text-center">Create Account</h1>
+                        <label for="title">Title*</label>
+                        <br>
+                        <input type="radio" value="Mr." name="name">  Mr.
+                        <input type="radio" value="Ms." name="name">  Ms.
+                        <input type="radio" value="Mrs." name="name">  Mrs.
+                        <div class="ms-auto">
+                            <br>
+                            <lable for="Username">First name*</lable>
+                            <input type="text" name="Username" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Lastname">Last name*</lable>
+                            <input type="lastname" name="last" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <label for="birthday">Date of Birth*</label>
+                            <input type="date" name="birthday" class="form-control">
+                        </div>
+                        <br>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Address">Adrress*</lable>
+                            <input type="address" name="address" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Postalcosde">Zip/Postal code*</lable>
+                            <input type="postalcode" name="postalcode" class="form-control">
+                        </div>
+                        <br>
+                        <hr>
+                        <div class="cf-phone-field">
+                            <lable for="Address">Mobile*</lable>
+                            <input type="address" name="last" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Email">Email address*</lable>
+                            <input type="email" name="email" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Password">Password*</lable>
+                            <input type="password" name="Password" class="form-control">
+                            <p>(Five characters minimum)</p>
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Password">Confirm Password*</lable>
+                            <input type="password" name="Password" class="form-control">
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <input type="radio" value="Mr." name="name">  By creating this account, I agree to the Terms & Conditions. Please read our Privacy Policy to understand how 
+                            <br>  we use your personal data.
+                        </div>
+                        <br>
+                        <a class="btn btn-outline-info type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">CANCEL</a>
+                        <a class="btn btn-outline-info type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">CREATE ACCOUNT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="header2">
+        <br><br><br><br><br><br><br><br><br><br>
+        <h1 class="display-3 text-white">Cebu Safari and Adventure Park</h1>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+    <div id="content-container">
+        <div id="content">
+            <p class="text-black text-center bg-light">Cebu Safari and Adventure Park is an adventure and safari park located in Carmen, Cebu, Philippines founded by Michel J. Lhuillier and Eduard J. Loop and covers 170 hectares with more than a thousand animals from 120 different species. It is considered as the biggest zoological park in the Philippines.</p>
+            <br>
+            <div class="row">
+                <div class="element-1">
+                    <img src="img/safari2.jpg" alt="" width="100%">
+                </div>
+                <div class="element-2">
+                    <div class="element-2-content">
+                        <h3 class="text-white bg-primary">Overview</h3>
+                        <p class="text-black">Located in Barangay Corte, Carmen, the Cebu Safari and Adventure Park serves as a sanctuary for different species of plants & animals and features mainly the African Savanna, Michelle's Garden, Gardens of the World, and the White Lion Safari. It also has a zipline which is 1.3 kilometers long and 671 metes above sea level.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br>
+            <div class="row">
+                <div class="element-1">
+                    <img src="img/safari6.jpg" alt="" width="100%">
+                </div>
+                <div class="element-2">
+                    <div class="element-2-content">
+                        <p class="text-black">For adults and for children 3 feet (91 centimetres) and above admission tickets cost ₱900 on weekdays and ₱1,100 on weekends and holidays. For children measuring between 2 feet (61 centimetres) to 3 feet (91 centimetres), tickets cost ₱450 on weekdays and ₱550 on weekends and holidays. Children measuring below 2 feet (61 centimetres) are admitted for free.</p>
+                        <p class="text-black">The park is open everyday, including on holidays, from 8:00am to 5:00pm.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br><br>
+            <div class="row">
+                <div class="element-1">
+                    <img src="img/safari7.jpg" alt="" width="100%">
+                    <br><br>
+                    <img src="img/safari8.jpg" alt="" width="100%">
+                </div>
+                <div class="element-2">
+                    <div class="element-2-content">
+                        <h3 class="text-white bg-warning">Development History</h3>
+                        <p class="text-black">In early 2017, photos of the adventure park being developed then surfaced on different social media sites from people who were granted an exclusive tour and some of which falsely announced that it was going to open in April 2017. This prompted Lhuillier, the owner, to clarify in a press conference that it was untrue and they were aiming October or November 2017 as their projected opening date.</p>
+                        <p class="text-black">The adventure park, which soft opened in February 2018, was conceptualized by Lhuillier after his visit to the San Diego Zoo in California after collecting several exotic animals and plants.</p>
+                        <p class="text-black">It is part of the 2,000-hectare property owned by the family of Lhuillier who is the founder and chairman of the M. Lhuillier Group of Companies which owns Michel J. Lhuillier Financial Services (Pawnshops), Inc. in the Philippines.</p>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="element-3 bg-white">
+                <p class="text-center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.87870737341!2d123.95883687334002!3d10.588655289548896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a9ae103223130d%3A0x1613da96c7529f0c!2sCebu%20Safari%20and%20Adventure%20Park!5e0!3m2!1sen!2sph!4v1690046710676!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                <h5 class="text-black">Contact us:</h5>
+                <p class="text-black"><i class="fa-solid fa-location-dot"></i> : Barangay Corte, Toril, Carmen, 6005 Cebu</p>
+                <p class="text-black"><i class="fa-regular fa-clock"></i> : 8:00 AM to 5:00 PM</p>
+                <p class="text-black"><i class="fa-solid fa-phone"></i> : (032)-520-4787</p>
+                <h5 class="text-black">Follow us:</h5>
+                <a href="https://www.facebook.com/cebusafari"><i class="fa-brands fa-square-facebook"></i></a>  <a href="https://www.instagram.com/cebusafari/"><i class="fa-brands fa-instagram"></i></a>  <a href="https://twitter.com/cebusafari"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <br>
+        </div>
+        <div class="container-fluid bg-black text-white p-0 text-center">
+            <img src="img/love2.png" alt="" width="8%">
+            <p>Copyright 2023</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

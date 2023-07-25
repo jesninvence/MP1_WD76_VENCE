@@ -1,0 +1,9 @@
+body{
+    width: 100%;
+    background-image: url(img/safari1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+}

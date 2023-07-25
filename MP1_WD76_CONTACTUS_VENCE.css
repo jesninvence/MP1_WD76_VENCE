@@ -1,0 +1,37 @@
+body{
+    background-image: url(img/cebuspots3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.header img{
+    width: 70px;
+    float: left;
+}
+.container h1{
+    font-size: 50px;
+}
+.container1 label{
+    color: black;
+}
+.container .row{
+    float: right;
+}
+.element-1 h4{
+    float: left;
+}
+.element-1 P{
+    float: left;
+}
+.element-2 h4{
+    float: left;
+}
+.element-2 P{
+    float: left;
+}
+.element-3 h4{
+    float: left;
+}
+.element-3 P{
+    float: left;
+}

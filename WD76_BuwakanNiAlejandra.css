@@ -1,0 +1,64 @@
+body{
+    width: 100%;
+    background-image: url(img/buwakan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+}
+.header img{
+    width: 100px;
+    float: left;
+}
+#header2 h1{
+    font-family: 'Titan One', cursive;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+}
+.nav-item a{
+    font-size: 20px;
+}
+#header h1{
+    color: white;
+    font-family: 'Century Gothic';
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+#content{
+    width: 1080px;
+    margin: auto;
+    padding-top: 20px;
+    color: white;
+    font-family: "Century Gothic";
+}
+#content h1{
+    font-family: sans-serif;
+
+}
+#content-container{
+    background: white;
+}
+.row{
+    display: inline-block;
+}
+.element-1{
+    width: 50%;
+    float: left;
+}
+.element-1 img{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+.element-2{
+    width: 49%;
+    float: right;
+    color: white;
+}
+.element-2 img{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+.element-2-content{
+    padding: 10%;
+}
+.element-3 a{
+    align-items: center;
+}

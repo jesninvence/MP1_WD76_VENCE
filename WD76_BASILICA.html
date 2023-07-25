@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js" integrity="sha512-ur3bvcsoBMm1IdHaX7qza+XM3y/16yPN7RV7BxmdEAxkMf32hET4V2XPqGF7vaB35aYvFAT/9vOb4M5zck+eUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lilita+One&family=Open+Sans:wght@300&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="WD76_MagilliansCross.css">
+    <link rel="stylesheet" href="WD76_BASILICA.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-black sticky-top">
+        <section class="header">
+            <div class="container">
+            <img src="img/love2.png">
+        </section>
+        <div class="container-fluid">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigationExercise10">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation Button -->
+
+            <!-- Navigation List -->
+            <div class="collapse navbar-collapse" id="navigationExercise10">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="WD76_MINIP1.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="">Culture</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Navigation List -->
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+            </form>
+            <br><br>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="btn btn-white bg-white" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-regular fa-user"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="sampleModal1">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal size, modal-xl, modal-fullscreen, modal-lg, modal-sm -->
+            <div class="modal-content">
+                <div class="row">
+                    <div class="modal-body">
+                            <h1 class="text-center">Login</h1>
+                        <div class="ms-auto">
+                            <lable for="Username">Email</lable>
+                            <input type="text" name="Username" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Password">Password</lable>
+                            <input type="password" name="Password" class="form-control">
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <p>Forgot your password?</p>
+                        </div>
+                        <div class="text-center">
+                            <a class="btn btn-outline-info" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1">SIGN IN</a>
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <a class="" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">Create account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+    <div class="modal fade" id="sampleModal2">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal size, modal-xl, modal-fullscreen, modal-lg, modal-sm -->
+            <div class="modal-content">
+                <div class="row">
+                    <div class="modal-body">
+                        <h1 class="text-center">Create Account</h1>
+                        <label for="title">Title*</label>
+                        <br>
+                        <input type="radio" value="Mr." name="name">  Mr.
+                        <input type="radio" value="Ms." name="name">  Ms.
+                        <input type="radio" value="Mrs." name="name">  Mrs.
+                        <div class="ms-auto">
+                            <br>
+                            <lable for="Username">First name*</lable>
+                            <input type="text" name="Username" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Lastname">Last name*</lable>
+                            <input type="lastname" name="last" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <label for="birthday">Date of Birth*</label>
+                            <input type="date" name="birthday" class="form-control">
+                        </div>
+                        <br>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Address">Adrress*</lable>
+                            <input type="address" name="address" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Postalcosde">Zip/Postal code*</lable>
+                            <input type="postalcode" name="postalcode" class="form-control">
+                        </div>
+                        <br>
+                        <hr>
+                        <div class="cf-phone-field">
+                            <lable for="Address">Mobile*</lable>
+                            <input type="address" name="last" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Email">Email address*</lable>
+                            <input type="email" name="email" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Password">Password*</lable>
+                            <input type="password" name="Password" class="form-control">
+                            <p>(Five characters minimum)</p>
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Password">Confirm Password*</lable>
+                            <input type="password" name="Password" class="form-control">
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <input type="radio" value="Mr." name="name">  By creating this account, I agree to the Terms & Conditions. Please read our Privacy Policy to understand how 
+                            <br>  we use your personal data.
+                        </div>
+                        <br>
+                        <a class="btn btn-outline-info type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">CANCEL</a>
+                        <a class="btn btn-outline-info type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">CREATE ACCOUNT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="header2">
+        <br><br><br><br><br><br><br><br><br><br>
+        <h1 class="display-3 text-white">Basilica del Santo Niño</h1>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+    <div id="content-container">
+        <div id="content">
+            <p class="text-black text-center bg-light">The Minor Basilica of the Holy Child, locally known as the Basílica Minore del Santo Niño de Cebú and commonly known as Santo Niño Basilica, is a minor basilica in Cebu City in the Philippines that was founded in 1565 by Fray Andrés de Urdaneta and Fray Diego de Herrera. It is the oldest Roman Catholic church in the country, allegedly built on the spot where the image of the Santo Niño de Cebú was found during the expedition of Miguel López de Legazpi.</p>
+            <br>
+            <div class="row">
+                <div class="element-1">
+                    <img src="img/basilica2.jpg" alt="" width="100%">
+                </div>
+                <div class="element-2">
+                    <div class="element-2-content">
+                        <p class="text-black">This image of the Child Jesus is the same presented by Ferdinand Magellan to the chief consort of Rajah Humabon on the occasion of their royal Baptism to Roman Catholicism on April 14, 1521. The image was found by a soldier named Juan de Camuz forty years later, preserved in a wooden box, after Legazpi had razed a local village.[2] When Pope Paul VI made the church a basilica in 1965, he declared it to be "the symbol of the birth and growth of Christianity in the Philippines.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="element-1">
+                    <img src="img/basilica6.jpg" alt="" width="100%">
+                    <br><br>
+                    <img src="img/basilica7.png" alt="" width="100%">
+                </div>
+                <div class="element-2">
+                    <div class="element-2-content">
+                        <h3 class="text-white bg-danger">History</h3>
+                        <p class="text-black">The church of the Holy Child was founded by Fray Andrés de Urdaneta, O.S.A. on April 28, 1565, the day when the image of the Holy Child was found in a partially burned hut. More than a week passed after the rediscovery of the image on May 8, 1565, Miguel Lopez de Legazpi initiated the founding of the first Spanish settlement in the Philippines. On the spot of the house where the image of the Santo Niño was found, the monastery of the Holy Name of Jesus was constructed.</p>
+                        <p class="text-black">The first church to be built on the site where the image of the Holy Child was found was burned down on November 1, 1566. It was said to be built by Fr. Diego de Herrera using wood and nipa. Fray Pedro Torres, O.S.A. started the construction of a new church in 1605. It was finished in 1626 but was again burned in March 1628. Fray Juan Medina, O.S.A.[10] started the construction of another church that year, using stone and bricks, a great innovation at that time. Construction was stopped because the structure was found to be defective.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br><br>
+            <div class="row">
+                <div class="element-1">
+                    <img src="img/basilica3.jpg" alt="" width="100%">
+                </div>
+                <div class="element-2">
+                    <div class="element-2-content">
+                        <h3 class="text-white bg-warning">Present church</h3>
+                        <p class="text-black">In February 1735, Father Provincial Bergaño, Governor-General Fernando Valdes, Bishop Manuel Antonio Decio y Ocampo of Cebu and Fray Juan de Albarran, O.S.A. started the foundations of the present church, using stone. Since the friars did not have the means to complete the church, they enlisted the help of the parishioners of Opon and San Nicolas to contribute materials, while the people of Talisay contributed labor. The lack of chief craftsmen and officers forced Fray Albarran to acquire some knowledge of architecture. On January 16, 1740, the present church was completed,[3] and the miraculous image was enthroned in the new church.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="element-1">
+                    <img src="img/basilica4.jpg" alt="" width="100%">
+                </div>
+                <div class="element-2">
+                    <div class="element-2-content">
+                        <h3 class="text-white bg-success">Heritage Designation</h3>
+                        <p class="text-black">The Church and Convent of Santo Niño was declared a National Historical Landmark in 1941.[11] In 1965, Pope Paul VI declared the basilica to be "the symbol of the birth and growth of Christianity in the Philippines."[9] In his pontificate, the ecclesiastical document Ut Clarificetur designated the basilica as the "Mother and Head of all Churches in the Philippines" (Mater et Caput... Omnium Ecclesiarum Insularum Philippinarum).</p>
+                        <p class="text-black">On April 14, 2021, the National Museum of the Philippines collectively declared the Church and Convent of Santo Niño and the Magellan's Cross Pavilion as a National Cultural Treasure.</p>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="element-1">
+                    <img src="img/basilica8.jpg" alt="" width="100%">
+                </div>
+                <div class="element-2">
+                    <div class="element-2-content">
+                        <h3 class="text-white bg-primary">Church Complex</h3>
+                        <p class="text-black">The devotees kept increasing over the years and could easily fill the Basilica. To accommodate this growing number of devotees who come to hear mass in the Basilica, a pilgrim center was built within the church compound opposite of the Basilica.
+
+                            Completed in September 1990, this open-air structure can accommodate 3,500 people. The basement of the Pilgrim's Center houses the Basilica Del Sto. Niño Museum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="element-3 bg-white">
+                <p class="text-center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.592654515146!2d123.89928277333443!3d10.29436798982655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99be22d351a15%3A0xb46f6aacd4eb3a9d!2sBasilica%20del%20Sto.%20Nino%2C%20Cebu%20City%2C%206000%20Cebu!5e0!3m2!1sen!2sph!4v1690044146462!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                <h5 class="text-black">Visit <br> <a href="https://santoninodecebubasilica.org/"><i class="fa-solid fa-earth-americas"></i> :Basilica del Santo Niño</a> </h5>
+                <br>
+            </div>
+        </div>
+        <div class="container-fluid bg-black text-white p-0 text-center">
+            <img src="img/love2.png" alt="" width="8%">
+            <p>Copyright 2023</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js" integrity="sha512-ur3bvcsoBMm1IdHaX7qza+XM3y/16yPN7RV7BxmdEAxkMf32hET4V2XPqGF7vaB35aYvFAT/9vOb4M5zck+eUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lilita+One&family=Open+Sans:wght@300&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="WD76_EVENTS.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-black sticky-top">
+        <section class="header">
+            <div class="container">
+            <img src="img/ilc.png">
+        </section>
+            <div class="container-fluid">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigationExercise10">
+                    <span class="navbar-toggler-icon bg-white"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navigationExercise10">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="WD76_MINIP1.html">Tourist Spots</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="WD76_ACTIVITIES.html">Activities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="WD76_EVENTS.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="WD76_CULTURE.html">Culture</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="MP1_WD76_CONTACTUS_VENCE.html">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                </form>
+                <br><br>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="btn btn-white bg-white" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-regular fa-user"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="sampleModal1">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal size, modal-xl, modal-fullscreen, modal-lg, modal-sm -->
+            <div class="modal-content">
+                <div class="row">
+                    <div class="modal-body">
+                            <h1 class="text-center">Login</h1>
+                        <div class="ms-auto">
+                            <lable for="Username">Email</lable>
+                            <input type="text" name="Username" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Password">Password</lable>
+                            <input type="password" name="Password" class="form-control">
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <p>Forgot your password?</p>
+                        </div>
+                        <div class="text-center">
+                            <a class="btn btn-outline-info" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1">SIGN IN</a>
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <a class="" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">Create account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+    <div class="modal fade" id="sampleModal2">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal size, modal-xl, modal-fullscreen, modal-lg, modal-sm -->
+            <div class="modal-content">
+                <div class="row">
+                    <div class="modal-body">
+                        <h1 class="text-center">Create Account</h1>
+                        <label for="title">Title*</label>
+                        <br>
+                        <input type="radio" value="Mr." name="name">  Mr.
+                        <input type="radio" value="Ms." name="name">  Ms.
+                        <input type="radio" value="Mrs." name="name">  Mrs.
+                        <div class="ms-auto">
+                            <br>
+                            <lable for="Username">First name*</lable>
+                            <input type="text" name="Username" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Lastname">Last name*</lable>
+                            <input type="lastname" name="last" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <label for="birthday">Date of Birth*</label>
+                            <input type="date" name="birthday" class="form-control">
+                        </div>
+                        <br>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Address">Adrress*</lable>
+                            <input type="address" name="address" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Postalcosde">Zip/Postal code*</lable>
+                            <input type="postalcode" name="postalcode" class="form-control">
+                        </div>
+                        <br>
+                        <hr>
+                        <div class="cf-phone-field">
+                            <lable for="Address">Mobile*</lable>
+                            <input type="address" name="last" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Email">Email address*</lable>
+                            <input type="email" name="email" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Password">Password*</lable>
+                            <input type="password" name="Password" class="form-control">
+                            <p>(Five characters minimum)</p>
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Password">Confirm Password*</lable>
+                            <input type="password" name="Password" class="form-control">
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <input type="radio" value="Mr." name="name">  By creating this account, I agree to the Terms & Conditions. Please read our Privacy Policy to understand how 
+                            <br>  we use your personal data.
+                        </div>
+                        <br>
+                        <a class="btn btn-outline-info type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">CANCEL</a>
+                        <a class="btn btn-outline-info type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">CREATE ACCOUNT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="content-container">
+        <div id="content">
+            <br>
+            <div class="row">
+                <br>
+                <div class="element-1">
+                    <br><br><br>
+                    <img src="img/Sinulog1.jpg" alt="" width="100%">
+                </div>
+                <div class="element-2">
+                    <div class="element-2-content">
+                    <h1 class="text-white bg-warning text-center">"Sinulog Festival"</h1>
+                    <p class="text-black">The Sinulog-Santo Niño Festival is an annual cultural and religious festival held on the third Sunday of January in Cebu City and is the centre of the Santo Niño Catholic Christian celebrations in the Philippines.</p>
+                    <p class="text-black">The festival is considered to be the biggest festival in the Philippines, with every celebration of the festival routinely attracting between 1 million and 1.5 million people each year.[1] Aside from the religious aspect of the festival, Sinulog is also famous for its street parties, usually happening the night before and the night of the main festival.[2] The festival is nicknamed the "Grandest Festival in the Philippines."</p>
+                    <p class="text-black">Other places in the Philippines also celebrate their own version of the festival in honor of Santo Niño, both within Cebu like Carmen, and outside Cebu, including Tondo, Manila, Kabankalan, General Santos, Maasin, Cagayan de Oro, Butuan, Pagadian, and Balingasag, Misamis Oriental.</p>
+                </div>
+                </div>
+            </div>
+            <div class="row">
+                <br>
+                <div class="element-1">
+                    <br><br><br>
+                    <img src="img/Cebu-Sinulog.jpg" alt="" width="100%">
+                    <br><br>
+                    <img src="img/sinulog5.jpg" alt="" width="100%">
+                </div>
+                <div class="element-2">
+                    <div class="element-2-content">
+                    <h1 class="text-white bg-info text-center">"Etymology"</h1>
+                    <p class="text-black">The word Sinulog comes from the Cebuano adverb sulog, roughly meaning "like water current movement;" describing the forward-backward dance movements. The dance consists of two steps forward and one step backward, done to the sound of drums. The dance is categorized into Sinulog-base, free-interpretation, and street dancing. Candle vendors at the Basilica continue to perform the traditional version of the dance when lighting a candle for the customer, usually accompanied by songs sang in Cebuano.</p>
+                    <p class="text-black">Sinulog is the ritual prayer-dance honoring Señor Santo Niño or the Child Jesus. An image of the Child Jesus is said to be the baptismal gift the Portuguese conquistador Ferdinand Magellan gave to Hara Amihan (Humanay) of Zebu (now Cebu) in April 1521. The image, believed to be miraculous, is housed at the Basilica Minore del Santo Niño in downtown Cebu City.</p>
+                    <p class="text-black">The Sinulog dance moves are often identified to be two steps forward and one step backward as the dancer sways to a distinct rhythm of drums. This movement is made to resemble the current (sulog) of what was known as Cebu's Pahina River.</p>
+                    <p class="text-black">According to historical accounts, Cebuanos had already performed dances similar to the Sinulog to honor animist idols long before the introduction of Christianity to the Philippines, which arrived in Cebu with the arrival of Ferdinand Magellan who led a Spanish expedition on April 7, 1521. The original image of Santo Niño was said to have been left by members of the Magellan expedition, and were said to be rediscovered when the Spanish returned in 1565 in an expedition led by Miguel López de Legazpi, which eventually led to the Spanish colonial era in the Philippines.</p>
+                    <p class="text-black">Today the Sinulog commemorates the Filipino people's acceptance of Christianity (specifically, Roman Catholicism), and their rejection of their former animist beliefs (worship of nature).[neutrality is disputed] The first of these conversions happened in 1521 on the island of Cebu, when Indianized-Sanskritized ruler Rajah Humabon and his queen Amihan (Humamay) were baptized along with their subjects, becoming Carlos and Juana of Cebu.</p>
+                </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="element-1">
+                    <br><br><br>
+                    <img src="img/sinulog4.jpg" alt="" width="100%">
+                </div>
+                <div class="element-2">
+                    <div class="element-2-content">
+                    <h1 class="text-white bg-primary text-center">"History"</h1>
+                    <p class="text-black">On March 16, 1521, the Portuguese explorer Ferdinand Magellan arrived and planted the cross on the shores of Cebu, claiming the territory for Spain. He presented the image of the Child Jesus to the Rajah Humabon. Hara Humamay (or Amihan in some versions) was later named, Queen Juana after Juana, mother of Carlos I. along with the rulers of the island and some 800 natives were also converted to the Roman Catholic faith.</p>
+                    <p class="text-black">This event is frequently used as basis for most Sinulog dances, which dramatize the coming of the Spaniards and the presentation of the Santo Niño to the Queen. A popular theme among Sinulog dances is Queen Juana holding the Santo Niño in her arms and using it to bless her people who were often afflicted with sickness believed to be caused by demons and other evil spirits.</p>
+                    <p class="text-black">The Sinulog dance steps are believed to originate from Rajah Humabon's adviser, Baladhay.[dubious – discuss] It was during Humabon's grief when Baladhay fell sick. Humabon ordered his native tribe to bring Baladhay into a room where the Santo Niño was enthroned, along with the other pagan gods of the native Cebuanos. After a few days passed, Baladhay was heard shouting and was found dancing with utmost alertness. Baladhay was questioned as to why was he was awake and shouting. Pointing to the image of the Santo Niño, Baladhay explained that he had found on top of him a small child trying to wake him and tickling him with the midrib of the coconut. Greatly astonished, he scared the child away by shouting. The little child got up and started making fun of Baladhay. In turn, Baladhay danced with the little child and explained that he was dancing the movements of the river. To this day, the two-steps forward, one-step backward movement is still used by Santo Niño devotees who believe that it was the Santo Niño's choice to have Baladhay dance.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section class="product">
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/pintosfestival.jpg" class="product-thumb" alt="">
+                    <a class="card-btn btn-info text-center" href="WD76_BuwakanNiAlejandra.html">Learn More</a>
+                </div>
+                <div class="card-title">
+                    <h2 class="product-brand bg-primary text-white text-center">Pintos Festival</h2>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/carcarfisteval.jpg" class="product-thumb" alt="">
+                    <a class="card-btn btn-info text-center" href="WD76_BuwakanNiAlejandra.html">Learn More</a>
+                </div>
+                <div class="card-title">
+                    <h2 class="product-brand bg-success text-white text-center">Carcar Festival</h2>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/haladayafestival.jpg" class="product-thumb" alt="">
+                    <a class="card-btn btn-info text-center" href="WD76_BuwakanNiAlejandra.html">Learn More</a>
+                </div>
+                <div class="card-title">
+                    <h2 class="product-brand bg-success text-white text-center">Haladaya Festival</h2>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/aurora2.jpg" class="product-thumb" alt="">
+                    <a class="card-btn btn-info text-center" href="WD76_BuwakanNiAlejandra.html">Learn More</a>
+                </div>
+                <div class="card-title">
+                    <h2 class="product-brand bg-success text-white text-center">Cebu Aurora</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container-fluid bg-black text-white p-0 text-center">
+        <img src="img/ilc.png" alt="" width="5%">
+        <p>Copyright 2023</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

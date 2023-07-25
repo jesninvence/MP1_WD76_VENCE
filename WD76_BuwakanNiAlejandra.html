@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lilita+One&family=Open+Sans:wght@300&family=Titan+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lilita+One&family=Titan+One&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js" integrity="sha512-ur3bvcsoBMm1IdHaX7qza+XM3y/16yPN7RV7BxmdEAxkMf32hET4V2XPqGF7vaB35aYvFAT/9vOb4M5zck+eUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="WD76_BuwakanNiAlejandra.css">
+    <title>Buwakan ni Alejandra</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-black sticky-top">
+        <section class="header">
+            <div class="container">
+            <img src="img/love2.png">
+        </section>
+        <div class="container-fluid">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigationExercise10">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation Button -->
+
+            <!-- Navigation List -->
+            <div class="collapse navbar-collapse" id="navigationExercise10">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="WD76_MINIP1.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="">Activites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="">Culture</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Navigation List -->
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+            </form>
+            <br><br>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="btn btn-white bg-white" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-regular fa-user"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="modal fade" id="sampleModal1">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal size, modal-xl, modal-fullscreen, modal-lg, modal-sm -->
+            <div class="modal-content">
+                <div class="row">
+                    <div class="modal-body">
+                            <h1 class="text-center">Login</h1>
+                        <div class="ms-auto">
+                            <lable for="Username">Email</lable>
+                            <input type="text" name="Username" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Password">Password</lable>
+                            <input type="password" name="Password" class="form-control">
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <p>Forgot your password?</p>
+                        </div>
+                        <div class="text-center">
+                            <a class="btn btn-outline-info" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1">SIGN IN</a>
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <a class="" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">Creat account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <div class="modal fade" id="sampleModal2">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal size, modal-xl, modal-fullscreen, modal-lg, modal-sm -->
+            <div class="modal-content">
+                <div class="row">
+                    <div class="modal-body">
+                        <h1 class="text-center">Creat Account</h1>
+                        <label for="title">Title*</label>
+                        <br>
+                        <input type="radio" value="Mr." name="name">  Mr.
+                        <input type="radio" value="Ms." name="name">  Ms.
+                        <input type="radio" value="Mrs." name="name">  Mrs.
+                        <div class="ms-auto">
+                            <br>
+                            <lable for="Username">First name*</lable>
+                            <input type="text" name="Username" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Lastname">Last name*</lable>
+                            <input type="lastname" name="last" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <label for="birthday">Date of Birth*</label>
+                            <input type="date" name="birthday" class="form-control">
+                        </div>
+                        <br>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Address">Adrress*</lable>
+                            <input type="address" name="address" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Postalcosde">Zip/Postal code*</lable>
+                            <input type="postalcode" name="postalcode" class="form-control">
+                        </div>
+                        <br>
+                        <hr>
+                        <div class="cf-phone-field">
+                            <lable for="Address">Mobile*</lable>
+                            <input type="address" name="last" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Email">Email address*</lable>
+                            <input type="email" name="email" class="form-control">
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Password">Password*</lable>
+                            <input type="password" name="Password" class="form-control">
+                            <p>(Five characters minimum)</p>
+                        </div>
+                        <br>
+                        <div class="ms-auto">
+                            <lable for="Password">Confirm Password*</lable>
+                            <input type="password" name="Password" class="form-control">
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <input type="radio" value="Mr." name="name">  By creating this account, I agree to the Terms & Conditions. Please read our Privacy Policy to understand how 
+                            <br>  we use your personal data.
+                        </div>
+                        <br>
+                        <a class="btn btn-outline-info type="button data-bs-toggle="modal" data-bs-target="#sampleModal2">CANCEL</a>
+                        <a class="btn btn-outline-info type="button data-bs-toggle="modal" data-bs-target="#sampleModal2">CREATE ACCOUNT</a>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+    <!-- End of Modal -->
+
+    <div id="header2">
+        <br><br><br><br><br><br>
+        <h1 class="display-3 text-white text-center">BUWAKAN NI ALEJANDRA</h1>
+        <br><br><br><br>
+    </div>
+    <div id="content-container">
+        <div id="content">
+            <p class="text-black text-center bg-light">The name “Buwakan ni Alejandra” (Alejandra’s Flower Farm) was derived from the Visayan word “buwak” which means “flower” and Alejandra is the name of the mother-in-law of the owner and landscaper, Eleuterio Getapa. The name was given in honor of Alejandra’s love for flowers.</p>
+            <br>
+            <div class="row">
+                <div class="element-1">
+                    <img src="img/buwakan.jpg" alt="" width="100%">
+                </div>
+                <div class="element-2">
+                    <div class="element-2-content">
+                        <h2 class="text-white bg-success text-center">DAY USE:</h2>
+                        <p class="text-black">The garden is open everyday from 7:00 am until 5:00 pm. A minimal fee of Php50.00 for adults and Php20.00 for children below 8 years old should be paid for the entrance.
+                        </p>
+                        <p class="text-black">Located at about 32 kilometers from the city, the charismatic garden is enticing tourists and visitors to conquer the long travel just to witness its glamour.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="element-1">
+                    <img src="img/buwakan 3.jpg" alt="" width="100%">
+                </div>
+                <div class="element-2">
+                    <div class="element-2-content">
+                        <h2 class="text-white bg-danger">BEAUTY AND VIBRANCE</h2>
+                        <p class="text-black">The flower garden covers an area of 700 square meters and expansion is still ongoing. There are over 200 varieties of local plants found in the garden and there will be more in the future. Different kinds of fascinating flowers with vibrant colors embellish the garden and that is what makes it attractive. Among the flowers that can be found in the garden are roses, dahlias, wax begonias, hibiscus, angel trumpets, and cleome or spider flowers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <br><br>
+                <div class="element-1">
+                    <img src="img/buwakan 2.jpg" alt="" width="100%">
+                </div>
+                <div class="element-2">
+                    <div class="element-2-content">
+                        <p class="text-black">Every area of Buwakan ni Alejandra is perfect for your next photo op. The whole place is excellent for those who want to do garden weddings. The flower garden provides a beautiful, fresh, and romantic ambiance to the visitors, making you fall in love even more.</p>
+                        <p class="text-black">Have you watched Alice in Wonderland? If you have, you might remember the scene where flowers surround Alice. But have you wondered how flowers might have felt? Buwakan ni Alejandra is here to make your Alice in Wonderland dreams come true.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <br><br>
+                <div class="element-1">
+                    <img src="img/buwakan 4.jpg" alt="" width="100%">
+                </div>
+                <div class="element-2">
+                    <div class="element-2-content">
+                        <p class="text-black">Buwakan ni Alejandra has different areas inspired by various movies and themes. For example, one place is inspired by the movie The Lorax. The Lorax area has plants shaped like circles, much like in the film. They also have a Rainbow Bridge where you can walk over the flower garden below. Other themes include The Throne, Cave, and Hydrangeas. <br><br> If you are looking for a great place to explore within Cebu, you have got to try Buwakan ni Alejandra. SugboPh reminds everyone to be responsible Laagans. Follow and respect the garden rules.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <br><br>
+                <div class="element-1">
+                    <img src="img/buwakan 6.jpg" alt="" width="100%">
+                </div>
+                <div class="element-2">
+                    <div class="element-2-content">
+                        <h3 class="text-white bg-warning">BUWAKAN NI ALEJANDRA RESTAURANT</h3>
+                        <p class="text-black">After a day of exploring, you might want to grab a bite at their restaurant. There are different mouthwatering dishes you should try. <br><br> The restaurant offers seafood options such as grilled salmon belly in lemon sauce, garlic butter shrimp, and more. They also have pasta noodles such as Aglio e Olio, Special Bam-I, and Spaghetti Carbonara, among others. <br> <br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="element-3">
+        <h2 class="text-center">Contact us</h2>
+        <p class="text-center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.8869607779648!2d123.77354947388476!3d10.430544065480763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a90a60f1d72fc3%3A0x2ae7d7bfc1cdf740!2sBuwakan%20ni%20Alejandra!5e0!3m2!1sen!2sph!4v1690044619855!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        <p class="text-center"><i class="fa-solid fa-location-dot"></i> Sitio Bunga Gaas, Balamban Cebu City</p>
+        <p class="text-center"><i class="fa-solid fa-phone"></i> 0921-812-9664</p>
+        <p class="text-center">Follow us: <br> <a href="https://www.facebook.com/search/top?q=buwakan%20ni%20alejandra"><i class="fa-brands fa-square-facebook"></i></a> <a href="https://www.instagram.com/explore/locations/1990347964554780/Buwakan%20ni%20Alejandra/"><i class="fa-brands fa-instagram"></i></a> <a href=""><i class="fa-brands fa-twitter"></i></a></p> 
+    </div>
+    <div class="container-fluid bg-black text-white p-0 text-center">
+        <img src="img/love2.png" alt="" width="8%">
+        <p>Copyright 2023</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

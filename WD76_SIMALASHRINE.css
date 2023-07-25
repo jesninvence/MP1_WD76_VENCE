@@ -1,0 +1,13 @@
+body{
+    width: 100%;
+    background-image: url(img/simala1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+}
+.header img{
+    width: 70px;
+    float: left;
+}
